@@ -10,13 +10,13 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 10px 20px; /* Tambahkan padding pada container */
+  padding: 10px 20px;
   border-bottom: 1px solid rgb(211, 211, 211);
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
-  box-sizing: border-box; /* Pastikan padding termasuk dalam ukuran total elemen */
+  box-sizing: border-box;
 }
 
 .logo {
@@ -29,7 +29,7 @@ body {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0 20px; /* Tambahkan padding pada ul untuk memastikan ada ruang di sekitar elemen */
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
@@ -254,7 +254,7 @@ select {
   align-items: center;
   margin-left: 35%;
 
-  width: 100px; /* Atur panjang garis bawah sesuai kebutuhan */
+  width: 100px;
   position: relative;
 }
 
@@ -265,8 +265,8 @@ select {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 2px; /* Atur ketebalan garis bawah */
-  background-color: #e0e0e0; /* Atur warna garis bawah */
+  height: 2px;
+  background-color: #e0e0e0;
 }
 
 .description h4 {
@@ -461,7 +461,7 @@ select {
   /* CSS untuk tombol "Your Closing Argument Headline" */
   button.call-to-action {
     width: 100%;
-    margin: 10px 0; /* Tambahkan margin atas dan bawah */
+    margin: 10px 0;
   }
 }
 
@@ -470,30 +470,30 @@ button.aksi {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto; /* Pastikan tombol terpusat */
-  padding: 10px 20px; /* Tambahkan padding */
-  background-color: #000; /* Warna latar belakang */
-  color: #fff; /* Warna teks */
-  border: none; /* Hapus border default */
-  border-radius: 5px; /* Border radius */
-  cursor: pointer; /* Pointer cursor */
-  text-align: center; /* Teks rata tengah */
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
 }
 
 button.aksi:hover {
-  background-color: #333; /* Warna latar belakang saat hover */
+  background-color: #333;
 }
 
 /* CSS untuk Footer */
 footer {
   width: 100%;
-  background-color: #f1f1f1; /* Warna latar belakang footer */
-  text-align: center; /* Teks rata tengah */
-  padding: 20px 0; /* Padding atas dan bawah */
-  box-sizing: border-box; /* Box sizing */
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px 0;
+  box-sizing: border-box;
 }
 
 footer p {
-  margin: 0; /* Hilangkan margin default */
-  color: #333; /* Warna teks */
+  margin: 0;
+  color: #333;
 }
